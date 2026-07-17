@@ -1,0 +1,163 @@
+{
+  "all_model_results": [
+    {
+      "model": "logistic_regression",
+      "accuracy": 0.6534334763948498,
+      "precision": 0.32533303114120077,
+      "recall": 0.20540069163673383,
+      "f1": 0.21268157031678847
+    },
+    {
+      "model": "random_forest",
+      "accuracy": 0.6507510729613734,
+      "precision": 0.43292978208232447,
+      "recall": 0.2186286325476772,
+      "f1": 0.2373158532296809
+    }
+  ],
+  "best_model": "random_forest",
+  "confusion_matrix": [
+    [
+      328,
+      5,
+      0,
+      1,
+      341,
+      1,
+      0,
+      0
+    ],
+    [
+      28,
+      4,
+      1,
+      0,
+      78,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      22,
+      0,
+      0,
+      0
+    ],
+    [
+      45,
+      9,
+      3,
+      0,
+      872,
+      0,
+      0,
+      1
+    ],
+    [
+      4,
+      1,
+      0,
+      1,
+      21,
+      6,
+      0,
+      0
+    ],
+    [
+      3,
+      1,
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      37,
+      0,
+      0,
+      1
+    ]
+  ],
+  "class_labels": [
+    "brewpub",
+    "closed",
+    "contract",
+    "large",
+    "micro",
+    "other",
+    "planning",
+    "regional"
+  ],
+  "feature_importance": {
+    "longitude": 0.32285261431679707,
+    "latitude": 0.2731075624570702,
+    "country_Australia": 0.046215835926821755,
+    "country_Austria": 0.005500796125882708,
+    "country_Belgium": 0.036359006251391796,
+    "country_Canada": 0.0027544244226945865,
+    "country_England": 0.002064645200796752,
+    "country_Finland": 0.0033458047019761317,
+    "country_France": 0.00016439637200844052,
+    "country_Germany": 0.23620918716956094,
+    "country_Ireland": 0.0018740632188532442,
+    "country_Isle of Man": 0.00010268525498294647,
+    "country_Italy": 0.000619473581294801,
+    "country_Japan": 0.0009114703202386952,
+    "country_Netherlands": 0.0026867755381342327,
+    "country_New Zealand": 0.011890829865198866,
+    "country_Poland": 0.0012337058756871505,
+    "country_Portugal": 0.0006572438182857407,
+    "country_Scotland": 0.0003851877059390612,
+    "country_Singapore": 0.01283412344826209,
+    "country_South Africa": 0.0036309498689396213,
+    "country_South Korea": 0.011883562924396676,
+    "country_Sweden": 0.0005035305205394344,
+    "country_United States": 0.02221212511424731
+  },
+  "features": [
+    "longitude",
+    "latitude",
+    "country_Australia",
+    "country_Austria",
+    "country_Belgium",
+    "country_Canada",
+    "country_England",
+    "country_Finland",
+    "country_France",
+    "country_Germany",
+    "country_Ireland",
+    "country_Isle of Man",
+    "country_Italy",
+    "country_Japan",
+    "country_Netherlands",
+    "country_New Zealand",
+    "country_Poland",
+    "country_Portugal",
+    "country_Scotland",
+    "country_Singapore",
+    "country_South Africa",
+    "country_South Korea",
+    "country_Sweden",
+    "country_United States"
+  ]
+}
